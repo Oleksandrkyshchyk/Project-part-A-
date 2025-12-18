@@ -1,6 +1,6 @@
 ﻿namespace Project__part_A_
 {
-    // Перелічення жанрів для ігор
+    // Жанри ігор
     public enum Genre
     {
         Action,

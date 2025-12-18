@@ -1,14 +1,12 @@
-﻿namespace Project__part_A_
+﻿using System;
+
+namespace Project__part_A_
 {
-    // Інтерфейс визначає загальні вимоги до елементів бібліотеки
-    public interface ILibraryItem
+    public interface ILibraryItem : IComparable<ILibraryItem>, ICloneable
     {
-        // Властивості (тільки сигнатури)
         string Title { get; set; }
         double SizeGb { get; set; }
-
-        // Методи (тільки сигнатури без тіла)
+        double Price { get; set; }
         void Install();
-        void Uninstall();
     }
 }

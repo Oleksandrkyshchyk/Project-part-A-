@@ -41,5 +41,22 @@ namespace Project__part_A_
         {
             throw new NotImplementedException();
         }
+
+        public List<Game> FindGamesByGenre(Genre genre)
+        {
+            throw new NotImplementedException();
+        }
+
+        // Метод для сортування
+        public void SortItemsByTitle()
+        {
+            throw new NotImplementedException();
+        }
+
+        // Метод для сортування за ціною
+        public void SortItemsByPrice()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

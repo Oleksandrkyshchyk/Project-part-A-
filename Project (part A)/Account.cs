@@ -4,10 +4,12 @@
     {
         public string Email { get; set; } = null!;
         public DateTime CreatedAt { get; set; }
+        public string? Username { get; set; }
+        public string? Password { get; set; }
 
-        public void ChangePassword(string newPass)
+        public void ChangePassword(string newPassword)
         {
-            throw new NotImplementedException(); // Заглушка
+            throw new NotImplementedException();
         }
     }
 }
