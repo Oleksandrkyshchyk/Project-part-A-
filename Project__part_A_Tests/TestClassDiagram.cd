@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project__part_A_Tests.AccountTests">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEBEAAACAAAAAAAAQADAAAAAAIBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AccountTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project__part_A_Tests.DeveloperTests">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAAAAAAAAAAAAAAAAIAAAAEACAAAAgAAAA=</HashCode>
+      <FileName>DeveloperTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project__part_A_Tests.GameTests">
+    <Position X="5.5" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQIJAYIAABAAAAAAAAEAAAAgAAggQAAQABAAAAA=</HashCode>
+      <FileName>GameTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project__part_A_Tests.LibraryLogicTests">
+    <Position X="2.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABAgAAAAAAAgCAAAAAAAAAAAAAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>LibraryLogicTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project__part_A_Tests.LibraryTests">
+    <Position X="2.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACABAAAAAAAAAAAAAAAAAAAAAAAAgQCAAAAAAAAAAA=</HashCode>
+      <FileName>LibraryTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

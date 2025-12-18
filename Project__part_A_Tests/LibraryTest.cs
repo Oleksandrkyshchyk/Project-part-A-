@@ -42,5 +42,20 @@ namespace Project__part_A_Tests
             // Assert
             Assert.AreEqual(0, count);
         }
+
+        [TestMethod]
+        public void Library_InitialState_GamesList_IsNotNull()
+        {
+            var library = new Library("Steam");
+            Assert.IsNotNull(library.PurchasedGames, "Games list must be initialized");
+        }
+
+        [TestMethod]
+        public void Library_LaunchGame_NonExistent_ThrowsException()
+        {
+            var library = new Library("Epic");
+            // Перевірка методу на неіснуючу гру
+            Assert.ThrowsException<NotImplementedException>(() => library.LaunchGame("UnknownGame"));
+        }
     }
 }
